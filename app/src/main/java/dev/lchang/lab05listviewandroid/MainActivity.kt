@@ -7,6 +7,10 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
 class MainActivity : AppCompatActivity() {
+    var arrSO = arrayOf(
+        "FCBarcelona, ManchesterUnited, AlianzaLima, AstonVilla, RealBetis, ValenciaCF, InterMilan  "
+    )
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
